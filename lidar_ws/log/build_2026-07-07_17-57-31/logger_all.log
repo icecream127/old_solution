@@ -1,0 +1,279 @@
+[0.219s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--symlink-install'][0m
+[0.219s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffade7c1c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffade4bc40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffade4bc40>>, mixin_verb=('build',))[0m
+[0.594s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.594s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.595s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.595s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.595s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.595s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.595s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/jetson/hurricane/lidar_ws'
+[0.595s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.595s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.647s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.647s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.647s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.647s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.647s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.647s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.648s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.648s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.648s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.648s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fastlio) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fastlio) by extension 'ignore'
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fastlio) by extension 'ignore_ament_install'
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fastlio) by extensions ['colcon_pkg']
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fastlio) by extension 'colcon_pkg'
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fastlio) by extensions ['colcon_meta']
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fastlio) by extension 'colcon_meta'
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fastlio) by extensions ['ros']
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fastlio) by extension 'ros'
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/fastlio' with type 'ros.ament_cmake' and name 'fast_lio'[0m
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/livox_ros_driver2) by extension 'ignore'
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/livox_ros_driver2) by extensions ['ros']
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/livox_ros_driver2) by extension 'ros'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'[0m
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_to_stm32) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_to_stm32) by extension 'ignore'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_to_stm32) by extension 'ignore_ament_install'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_to_stm32) by extensions ['colcon_pkg']
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_to_stm32) by extension 'colcon_pkg'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_to_stm32) by extensions ['colcon_meta']
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_to_stm32) by extension 'colcon_meta'
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_to_stm32) by extensions ['ros']
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_to_stm32) by extension 'ros'
+[0.661s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros2_to_stm32' with type 'ros.ament_python' and name 'ros2_to_stm32'[0m
+[0.661s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.661s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.661s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.661s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.661s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.687s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.687s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.691s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 4 installed packages in /home/jetson/yahboom_ws/install[0m
+[0.692s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 284 installed packages in /opt/ros/humble[0m
+[0.694s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.756s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'livox_ros_driver2' build argument 'cmake_args' from command line to 'None'
+[0.756s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.756s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.756s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.756s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.756s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.756s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.756s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.756s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.756s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/hurricane/lidar_ws/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/jetson/hurricane/lidar_ws/src/livox_ros_driver2', 'symlink_install': True, 'test_result_base': None}[0m
+[0.757s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_to_stm32' build argument 'cmake_args' from command line to 'None'
+[0.757s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_to_stm32' build argument 'cmake_target' from command line to 'None'
+[0.757s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_to_stm32' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.757s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_to_stm32' build argument 'cmake_clean_cache' from command line to 'False'
+[0.757s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_to_stm32' build argument 'cmake_clean_first' from command line to 'False'
+[0.757s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_to_stm32' build argument 'cmake_force_configure' from command line to 'False'
+[0.757s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_to_stm32' build argument 'ament_cmake_args' from command line to 'None'
+[0.757s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_to_stm32' build argument 'catkin_cmake_args' from command line to 'None'
+[0.757s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_to_stm32' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.757s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ros2_to_stm32' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/hurricane/lidar_ws/build/ros2_to_stm32', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32', 'merge_install': False, 'path': '/home/jetson/hurricane/lidar_ws/src/ros2_to_stm32', 'symlink_install': True, 'test_result_base': None}[0m
+[0.758s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fast_lio' build argument 'cmake_args' from command line to 'None'
+[0.758s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fast_lio' build argument 'cmake_target' from command line to 'None'
+[0.758s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fast_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.758s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fast_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.758s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fast_lio' build argument 'cmake_clean_first' from command line to 'False'
+[0.758s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fast_lio' build argument 'cmake_force_configure' from command line to 'False'
+[0.758s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fast_lio' build argument 'ament_cmake_args' from command line to 'None'
+[0.758s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fast_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.758s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fast_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.758s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'fast_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/hurricane/lidar_ws/build/fast_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/hurricane/lidar_ws/install/fast_lio', 'merge_install': False, 'path': '/home/jetson/hurricane/lidar_ws/src/fastlio', 'symlink_install': True, 'test_result_base': None}[0m
+[0.758s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.761s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.761s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jetson/hurricane/lidar_ws/src/livox_ros_driver2' with build type 'ament_cmake'
+[0.762s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jetson/hurricane/lidar_ws/src/livox_ros_driver2'
+[0.765s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.766s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.766s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.772s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/jetson/hurricane/lidar_ws/src/ros2_to_stm32' with build type 'ament_python'
+[0.773s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_to_stm32', 'ament_prefix_path')
+[0.773s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/share/ros2_to_stm32/hook/ament_prefix_path.ps1'
+[0.775s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/share/ros2_to_stm32/hook/ament_prefix_path.dsv'
+[0.776s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/share/ros2_to_stm32/hook/ament_prefix_path.sh'
+[0.777s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.777s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.789s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jetson/hurricane/lidar_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/jetson/hurricane/lidar_ws/src/livox_ros_driver2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2[0m
+[1.400s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/jetson/hurricane/lidar_ws/src/ros2_to_stm32'
+[1.401s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.401s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.214s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jetson/hurricane/lidar_ws/build/ros2_to_stm32': PYTHONPATH=/home/jetson/hurricane/lidar_ws/build/ros2_to_stm32/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/hurricane/lidar_ws/build/ros2_to_stm32/build --no-deps symlink_data[0m
+[3.288s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_to_stm32', 'pythonpath_develop')
+[3.289s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/build/ros2_to_stm32/share/ros2_to_stm32/hook/pythonpath_develop.ps1'
+[3.290s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jetson/hurricane/lidar_ws/build/ros2_to_stm32' returned '0': PYTHONPATH=/home/jetson/hurricane/lidar_ws/build/ros2_to_stm32/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/hurricane/lidar_ws/build/ros2_to_stm32/build --no-deps symlink_data[0m
+[3.291s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/hurricane/lidar_ws/build/ros2_to_stm32/share/ros2_to_stm32/hook/pythonpath_develop.dsv'
+[3.292s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/build/ros2_to_stm32/share/ros2_to_stm32/hook/pythonpath_develop.sh'
+[3.297s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32' for CMake module files
+[3.298s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32' for CMake config files
+[3.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib'
+[3.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/bin'
+[3.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/pkgconfig/ros2_to_stm32.pc'
+[3.300s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/python3.10/site-packages'
+[3.300s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_to_stm32', 'pythonpath')
+[3.300s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/share/ros2_to_stm32/hook/pythonpath.ps1'
+[3.302s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/share/ros2_to_stm32/hook/pythonpath.dsv'
+[3.302s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/share/ros2_to_stm32/hook/pythonpath.sh'
+[3.304s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/bin'
+[3.304s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_to_stm32)
+[3.305s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/share/ros2_to_stm32/package.ps1'
+[3.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/share/ros2_to_stm32/package.dsv'
+[3.308s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/share/ros2_to_stm32/package.sh'
+[3.311s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/share/ros2_to_stm32/package.bash'
+[3.313s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/share/ros2_to_stm32/package.zsh'
+[3.315s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/share/colcon-core/packages/ros2_to_stm32)
+[8.897s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jetson/hurricane/lidar_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/jetson/hurricane/lidar_ws/src/livox_ros_driver2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2[0m
+[8.905s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jetson/hurricane/lidar_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/jetson/hurricane/lidar_ws/build/livox_ros_driver2 -- -j8 -l8[0m
+[30.601s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jetson/hurricane/lidar_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/jetson/hurricane/lidar_ws/build/livox_ros_driver2 -- -j8 -l8[0m
+[30.626s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jetson/hurricane/lidar_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/jetson/hurricane/lidar_ws/build/livox_ros_driver2[0m
+[32.470s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(livox_ros_driver2)
+[32.470s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2' for CMake module files
+[32.472s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jetson/hurricane/lidar_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/jetson/hurricane/lidar_ws/build/livox_ros_driver2[0m
+[32.474s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2' for CMake config files
+[32.476s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[32.477s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[32.479s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[32.480s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[32.481s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib'
+[32.481s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[32.482s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[32.482s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[32.484s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[32.485s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/bin'
+[32.485s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[32.485s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/python3.10/site-packages'
+[32.485s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/bin'
+[32.486s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[32.487s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[32.489s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[32.490s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[32.490s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[32.491s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[32.493s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(livox_ros_driver2)
+[32.494s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2' for CMake module files
+[32.496s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2' for CMake config files
+[32.500s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[32.500s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[32.502s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[32.503s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[32.505s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib'
+[32.505s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[32.505s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[32.506s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[32.506s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[32.507s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/bin'
+[32.507s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[32.507s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/python3.10/site-packages'
+[32.508s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/bin'
+[32.509s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[32.511s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[32.513s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[32.514s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[32.515s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[32.517s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[32.518s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jetson/hurricane/lidar_ws/src/fastlio' with build type 'ament_cmake'
+[32.518s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jetson/hurricane/lidar_ws/src/fastlio'
+[32.519s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[32.520s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[32.546s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jetson/hurricane/lidar_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:/home/jetson/yahboom_ws/install/interfaces:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:/usr/local/lib:/usr/local/cuda-12.6/lib64:/home/jetson/yahboom_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/hurricane/lidar_ws/src/fastlio -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/hurricane/lidar_ws/install/fast_lio[0m
+[41.580s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jetson/hurricane/lidar_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:/home/jetson/yahboom_ws/install/interfaces:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:/usr/local/lib:/usr/local/cuda-12.6/lib64:/home/jetson/yahboom_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/hurricane/lidar_ws/src/fastlio -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/hurricane/lidar_ws/install/fast_lio[0m
+[41.587s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jetson/hurricane/lidar_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:/home/jetson/yahboom_ws/install/interfaces:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:/usr/local/lib:/usr/local/cuda-12.6/lib64:/home/jetson/yahboom_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/hurricane/lidar_ws/build/fast_lio -- -j8 -l8[0m
+[183.453s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jetson/hurricane/lidar_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:/home/jetson/yahboom_ws/install/interfaces:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:/usr/local/lib:/usr/local/cuda-12.6/lib64:/home/jetson/yahboom_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/hurricane/lidar_ws/build/fast_lio -- -j8 -l8[0m
+[183.459s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jetson/hurricane/lidar_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:/home/jetson/yahboom_ws/install/interfaces:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:/usr/local/lib:/usr/local/cuda-12.6/lib64:/home/jetson/yahboom_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/hurricane/lidar_ws/build/fast_lio[0m
+[184.879s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(fast_lio)
+[184.881s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/fast_lio' for CMake module files
+[184.883s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jetson/hurricane/lidar_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:/home/jetson/yahboom_ws/install/interfaces:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:/usr/local/lib:/usr/local/cuda-12.6/lib64:/home/jetson/yahboom_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/hurricane/lidar_ws/build/fast_lio[0m
+[184.884s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/fast_lio' for CMake config files
+[184.887s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fast_lio', 'cmake_prefix_path')
+[184.889s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[184.891s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[184.892s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[184.894s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/fast_lio/lib'
+[184.894s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fast_lio', 'ld_library_path_lib')
+[184.895s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[184.896s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[184.897s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[184.898s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/fast_lio/bin'
+[184.898s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[184.899s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/fast_lio/lib/python3.10/site-packages'
+[184.899s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/fast_lio/bin'
+[184.901s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/package.ps1'
+[184.903s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/package.dsv'
+[184.905s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/package.sh'
+[184.906s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/package.bash'
+[184.907s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/package.zsh'
+[184.908s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jetson/hurricane/lidar_ws/install/fast_lio/share/colcon-core/packages/fast_lio)
+[184.910s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(fast_lio)
+[184.911s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/fast_lio' for CMake module files
+[184.912s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/fast_lio' for CMake config files
+[184.914s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fast_lio', 'cmake_prefix_path')
+[184.915s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[184.916s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[184.917s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[184.919s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/fast_lio/lib'
+[184.919s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fast_lio', 'ld_library_path_lib')
+[184.920s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[184.921s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[184.922s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[184.923s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/fast_lio/bin'
+[184.923s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[184.923s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/fast_lio/lib/python3.10/site-packages'
+[184.924s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jetson/hurricane/lidar_ws/install/fast_lio/bin'
+[184.925s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/package.ps1'
+[184.926s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/package.dsv'
+[184.927s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/package.sh'
+[184.929s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/package.bash'
+[184.930s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/package.zsh'
+[184.930s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jetson/hurricane/lidar_ws/install/fast_lio/share/colcon-core/packages/fast_lio)
+[184.931s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[184.932s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[184.932s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[184.932s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[184.953s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[184.953s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[184.955s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[185.002s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[185.004s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/jetson/hurricane/lidar_ws/install/local_setup.ps1'
+[185.007s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/jetson/hurricane/lidar_ws/install/_local_setup_util_ps1.py'
+[185.013s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/jetson/hurricane/lidar_ws/install/setup.ps1'
+[185.016s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/jetson/hurricane/lidar_ws/install/local_setup.sh'
+[185.018s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/jetson/hurricane/lidar_ws/install/_local_setup_util_sh.py'
+[185.019s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/jetson/hurricane/lidar_ws/install/setup.sh'
+[185.023s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/jetson/hurricane/lidar_ws/install/local_setup.bash'
+[185.024s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/jetson/hurricane/lidar_ws/install/setup.bash'
+[185.027s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/jetson/hurricane/lidar_ws/install/local_setup.zsh'
+[185.028s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/jetson/hurricane/lidar_ws/install/setup.zsh'

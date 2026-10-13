@@ -1,0 +1,21 @@
+[1.972s] Invoking command in '/home/jetson/hurricane/lidar_ws/build/ros2_to_stm32': PYTHONPATH=/home/jetson/hurricane/lidar_ws/build/ros2_to_stm32/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/hurricane/lidar_ws/build/ros2_to_stm32/build --no-deps symlink_data
+[2.785s] running develop
+[3.440s] running egg_info
+[3.440s] writing ros2_to_stm32.egg-info/PKG-INFO
+[3.441s] writing dependency_links to ros2_to_stm32.egg-info/dependency_links.txt
+[3.442s] writing entry points to ros2_to_stm32.egg-info/entry_points.txt
+[3.442s] writing requirements to ros2_to_stm32.egg-info/requires.txt
+[3.442s] writing top-level names to ros2_to_stm32.egg-info/top_level.txt
+[3.449s] reading manifest file 'ros2_to_stm32.egg-info/SOURCES.txt'
+[3.451s] writing manifest file 'ros2_to_stm32.egg-info/SOURCES.txt'
+[3.455s] running build_ext
+[3.456s] Creating /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/python3.10/site-packages/ros2-to-stm32.egg-link (link to .)
+[3.458s] Installing info_trans script to /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/ros2_to_stm32
+[3.459s] Installing map_node script to /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/ros2_to_stm32
+[3.459s] Installing pos_trans script to /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/ros2_to_stm32
+[3.459s] Installing serial_node script to /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/ros2_to_stm32
+[3.460s] Installing ui_node script to /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/ros2_to_stm32
+[3.460s] 
+[3.460s] Installed /home/jetson/hurricane/lidar_ws/build/ros2_to_stm32
+[3.461s] running symlink_data
+[3.561s] Invoked command in '/home/jetson/hurricane/lidar_ws/build/ros2_to_stm32' returned '0': PYTHONPATH=/home/jetson/hurricane/lidar_ws/build/ros2_to_stm32/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/hurricane/lidar_ws/build/ros2_to_stm32/build --no-deps symlink_data

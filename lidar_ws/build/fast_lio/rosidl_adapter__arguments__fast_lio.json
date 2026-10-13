@@ -1,0 +1,6 @@
+{
+  "package_name": "fast_lio",
+  "non_idl_tuples": [
+    "/home/jetson/hurricane/lidar_ws/src/fastlio:msg/Pose6D.msg"
+  ]
+}

@@ -1,0 +1,327 @@
+[0.024s] Invoking command in '/home/jetson/hurricane/lidar_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:/home/jetson/yahboom_ws/install/interfaces:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:/usr/local/lib:/usr/local/cuda-12.6/lib64:/home/jetson/yahboom_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/hurricane/lidar_ws/src/fastlio -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/hurricane/lidar_ws/install/fast_lio
+[0.128s] -- The C compiler identification is GNU 11.4.0
+[0.235s] -- The CXX compiler identification is GNU 11.4.0
+[0.257s] -- Detecting C compiler ABI info
+[0.395s] -- Detecting C compiler ABI info - done
+[0.420s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.421s] -- Detecting C compile features
+[0.422s] -- Detecting C compile features - done
+[0.432s] -- Detecting CXX compiler ABI info
+[0.588s] -- Detecting CXX compiler ABI info - done
+[0.614s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.615s] -- Detecting CXX compile features
+[0.616s] -- Detecting CXX compile features - done
+[0.619s] [0mCurrent CPU archtecture: aarch64[0m
+[1.369s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[1.374s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.699s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.831s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.897s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.962s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.969s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.981s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.999s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.023s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.089s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.093s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.255s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.312s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.387s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.400s] -- Looking for pthread.h
+[2.528s] -- Looking for pthread.h - found
+[2.529s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.674s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.677s] -- Found Threads: TRUE  
+[2.800s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.841s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.862s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.886s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.911s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[2.925s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.954s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[3.021s] -- Checking for module 'eigen3'
+[3.050s] --   Found eigen3, version 3.4.0
+[3.121s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.121s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.200s] -- Checking for module 'flann'
+[3.230s] --   Found flann, version 1.9.1
+[3.319s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[3.319s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[5.279s] -- Checking for module 'libusb-1.0'
+[5.313s] --   Found libusb-1.0, version 1.0.25
+[5.400s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[5.403s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.551s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.802s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.814s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.823s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.036s] -- Found Qhull version 8.0.2
+[6.267s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.488s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[6.489s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[6.490s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[6.492s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[6.493s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[6.494s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[6.495s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[6.495s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[6.496s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[6.498s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[6.499s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[6.501s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[6.502s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[6.503s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[6.505s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[6.506s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[6.508s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[6.509s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[6.510s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[6.512s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[6.513s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[6.513s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[6.514s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[6.515s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[6.517s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[6.558s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.560s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.560s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.662s] -- Found livox_ros_driver2: 1.1.0 (/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[6.694s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.709s] [33mCMake Warning (dev) at CMakeLists.txt:81 (find_package):
+[6.709s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[6.709s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[6.709s]   command to set the policy and suppress this warning.
+[6.709s] 
+[6.709s]   CMake variable PCL_ROOT is set to:
+[6.709s] 
+[6.710s]     /usr
+[6.710s] 
+[6.710s]   For compatibility, CMake is ignoring the variable.
+[6.710s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.710s] [0m
+[6.720s] [0mEigen:/usr/include/eigen3[0m
+[6.721s] -- PCL: /usr/include/pcl-1.12
+[7.298s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.014s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.348s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[8.354s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.411s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.411s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.412s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.412s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[8.462s] -- Found PythonExtra: .so  
+[8.757s] -- Using numpy include directory: /home/jetson/.local/lib/python3.10/site-packages/numpy/core/include
+[8.846s] -- Configuring done
+[8.969s] -- Generating done
+[9.005s] -- Build files have been written to: /home/jetson/hurricane/lidar_ws/build/fast_lio
+[9.058s] Invoked command in '/home/jetson/hurricane/lidar_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:/home/jetson/yahboom_ws/install/interfaces:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:/usr/local/lib:/usr/local/cuda-12.6/lib64:/home/jetson/yahboom_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/hurricane/lidar_ws/src/fastlio -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/hurricane/lidar_ws/install/fast_lio
+[9.064s] Invoking command in '/home/jetson/hurricane/lidar_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:/home/jetson/yahboom_ws/install/interfaces:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:/usr/local/lib:/usr/local/cuda-12.6/lib64:/home/jetson/yahboom_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/hurricane/lidar_ws/build/fast_lio -- -j8 -l8
+[9.150s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.167s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.188s] [  5%] Built target ament_cmake_python_symlink_fast_lio
+[9.694s] running egg_info
+[9.696s] creating fast_lio.egg-info
+[9.697s] writing fast_lio.egg-info/PKG-INFO
+[9.698s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[9.699s] writing top-level names to fast_lio.egg-info/top_level.txt
+[9.699s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[9.703s] [  8%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__functions.c.o[0m
+[9.704s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[9.705s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[9.713s] [  8%] Built target fast_lio__cpp
+[9.732s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.732s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.732s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.785s] [ 17%] Built target ament_cmake_python_build_fast_lio_egg
+[9.891s] [ 20%] [32m[1mLinking C shared library libfast_lio__rosidl_generator_c.so[0m
+[9.953s] [ 20%] Built target fast_lio__rosidl_generator_c
+[9.970s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.970s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.971s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.259s] [ 31%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[10.290s] [ 34%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o[0m
+[10.321s] [ 37%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o[0m
+[10.512s] [ 40%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[10.538s] [ 42%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio/msg/detail/pose6_d__type_support.c.o[0m
+[10.557s] [ 45%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o[0m
+[10.571s] [ 48%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_c.so[0m
+[10.650s] [ 48%] Built target fast_lio__rosidl_typesupport_c
+[10.660s] [ 51%] [32m[1mLinking C shared library libfast_lio__rosidl_typesupport_introspection_c.so[0m
+[10.714s] [ 51%] Built target fast_lio__rosidl_typesupport_introspection_c
+[10.783s] [ 54%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so[0m
+[10.847s] [ 54%] Built target fast_lio__rosidl_typesupport_cpp
+[10.884s] [ 60%] [32mBuilding CXX object CMakeFiles/laser_mapping.dir/src/laserMapping.cpp.o[0m
+[10.884s] [ 60%] [32mBuilding CXX object CMakeFiles/laser_mapping.dir/src/preprocess.cpp.o[0m
+[10.884s] [ 62%] [32mBuilding CXX object CMakeFiles/laser_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[11.093s] [ 65%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so[0m
+[11.111s] [ 68%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.165s] [ 68%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[11.256s] [ 68%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[11.257s] [ 71%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so[0m
+[11.394s] [ 71%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[11.429s] [ 71%] Built target fast_lio
+[11.462s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.218s] [ 74%] Built target fast_lio__py
+[12.250s] [ 77%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o[0m
+[12.505s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so[0m
+[12.585s] [ 80%] Built target fast_lio__rosidl_generator_py
+[12.622s] [ 85%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.622s] [ 85%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.631s] [ 88%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o[0m
+[12.826s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.827s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.849s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.886s] [ 97%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[12.887s] [ 97%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[12.911s] [ 97%] Built target fast_lio__rosidl_typesupport_c__pyext
+[23.204s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[23.204s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[23.204s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[23.205s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[23.205s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[23.205s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[23.205s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[23.205s]                  from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+[23.205s]                  from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+[23.205s]                  from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+[23.205s]                  from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+[23.205s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+[23.205s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73[m[K,
+[23.205s]                  from [01m[K/home/jetson/hurricane/lidar_ws/src/fastlio/src/IMU_Processing.hpp:18[m[K,
+[23.206s]                  from [01m[K/home/jetson/hurricane/lidar_ws/src/fastlio/src/laserMapping.cpp:13[m[K:
+[23.206s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[23.206s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[23.206s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[34.467s] In file included from [01m[K/home/jetson/hurricane/lidar_ws/src/fastlio/include/IKFoM_toolkit/esekfom/../mtk/types/SOn.hpp:83[m[K,
+[34.467s]                  from [01m[K/home/jetson/hurricane/lidar_ws/src/fastlio/include/IKFoM_toolkit/esekfom/esekfom.hpp:49[m[K,
+[34.467s]                  from [01m[K/home/jetson/hurricane/lidar_ws/src/fastlio/include/use-ikfom.hpp:4[m[K,
+[34.468s]                  from [01m[K/home/jetson/hurricane/lidar_ws/src/fastlio/src/IMU_Processing.hpp:22[m[K,
+[34.468s]                  from [01m[K/home/jetson/hurricane/lidar_ws/src/fastlio/src/laserMapping.cpp:13[m[K:
+[34.468s] /home/jetson/hurricane/lidar_ws/src/fastlio/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp: In instantiation of ‘[01m[Kstd::pair<_FIter, _FIter> MTK::cos_sinc_sqrt(const scalar&) [with scalar = double][m[K’:
+[34.468s] [01m[K/home/jetson/hurricane/lidar_ws/src/fastlio/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp:252:52:[m[K   required from ‘[01m[Kscalar MTK::exp(MTK::vectview<scalar, dim>, MTK::vectview<const scalar, dim>, const scalar&) [with scalar = double; int n = 3][m[K’
+[34.468s] [01m[K/home/jetson/hurricane/lidar_ws/src/fastlio/include/IKFoM_toolkit/esekfom/../mtk/types/S2.hpp:140:32:[m[K   required from ‘[01m[Kvoid MTK::S2<_scalar, den, num, S2_typ>::boxplus(MTK::vectview<const _scalar, 2>, MTK::S2<_scalar, den, num, S2_typ>::scalar) [with _scalar = double; int den = 98090; int num = 10000; int S2_typ = 1; MTK::S2<_scalar, den, num, S2_typ>::scalar = double][m[K’
+[34.468s] [01m[K/home/jetson/hurricane/lidar_ws/src/fastlio/include/use-ikfom.hpp:12:1:[m[K   required from here
+[34.468s] [01m[K/home/jetson/hurricane/lidar_ws/src/fastlio/include/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp:143:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[34.468s]   143 | std::pair<scalar, scalar> [01;36m[Kcos_sinc_sqrt[m[K(const scalar &x2){
+[34.468s]       |                           [01;36m[K^~~~~~~~~~~~~[m[K
+[148.209s] [100%] [32m[1mLinking CXX executable laser_mapping[0m
+[150.903s] [100%] Built target laser_mapping
+[150.931s] Invoked command in '/home/jetson/hurricane/lidar_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:/home/jetson/yahboom_ws/install/interfaces:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:/usr/local/lib:/usr/local/cuda-12.6/lib64:/home/jetson/yahboom_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/hurricane/lidar_ws/build/fast_lio -- -j8 -l8
+[150.937s] Invoking command in '/home/jetson/hurricane/lidar_ws/build/fast_lio': AMENT_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:/home/jetson/yahboom_ws/install/interfaces:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:/usr/local/lib:/usr/local/cuda-12.6/lib64:/home/jetson/yahboom_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/hurricane/lidar_ws/build/fast_lio
+[150.955s] -- Install configuration: "Release"
+[150.955s] -- Execute custom install script
+[150.956s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio
+[150.975s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h
+[150.993s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h
+[151.010s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h
+[151.026s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h
+[151.045s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h
+[151.067s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/environment/library_path.sh
+[151.086s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/environment/library_path.dsv
+[151.103s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[151.120s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[151.139s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp
+[151.159s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp
+[151.177s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp
+[151.196s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp
+[151.213s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp
+[151.230s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp
+[151.248s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[151.270s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[151.289s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[151.306s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[151.324s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[151.340s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/environment/pythonpath.sh
+[151.358s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/environment/pythonpath.dsv
+[151.378s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO
+[151.395s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt
+[151.414s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt
+[151.433s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt
+[151.452s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py
+[151.469s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c
+[151.487s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c
+[151.505s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c
+[151.524s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[151.541s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[151.559s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[151.578s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so
+[151.595s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py
+[151.611s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py
+[151.628s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c
+[151.646s] -- Up-to-date symlink: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[151.647s] -- Up-to-date symlink: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[151.648s] -- Up-to-date symlink: /home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[151.648s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/msg/Pose6D.idl
+[151.668s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/msg/Pose6D.msg
+[151.686s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/lib/fast_lio/laser_mapping
+[151.703s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/config/avia.yaml
+[151.721s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/config/horizon.yaml
+[151.737s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/config/mid360.yaml
+[151.755s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/config/ouster64.yaml
+[151.774s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/config/velodyne.yaml
+[151.791s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch
+[151.808s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/launch/mapping.launch.py
+[151.825s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/launch/mid360_huang_launch.py
+[151.842s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/rviz/fastlio.rviz
+[151.862s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio
+[151.880s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio
+[151.897s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh
+[151.914s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv
+[151.932s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/environment/path.sh
+[151.951s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/environment/path.dsv
+[151.968s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/local_setup.bash
+[151.985s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/local_setup.sh
+[152.001s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/local_setup.zsh
+[152.017s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/local_setup.dsv
+[152.035s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/package.dsv
+[152.055s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/ament_index/resource_index/packages/fast_lio
+[152.071s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake
+[152.087s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+[152.103s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake
+[152.119s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake
+[152.135s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[152.153s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[152.174s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[152.193s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake
+[152.212s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake
+[152.230s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/package.xml
+[152.248s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so
+[152.250s] -- Set runtime path of "/home/jetson/hurricane/lidar_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so" to ""
+[152.250s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so
+[152.252s] -- Set runtime path of "/home/jetson/hurricane/lidar_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so" to ""
+[152.252s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so
+[152.253s] -- Set runtime path of "/home/jetson/hurricane/lidar_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so" to ""
+[152.253s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so
+[152.254s] -- Set runtime path of "/home/jetson/hurricane/lidar_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so" to ""
+[152.255s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so
+[152.256s] -- Set runtime path of "/home/jetson/hurricane/lidar_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so" to ""
+[152.256s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so
+[152.257s] -- Set runtime path of "/home/jetson/hurricane/lidar_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so" to ""
+[152.258s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so
+[152.258s] -- Set runtime path of "/home/jetson/hurricane/lidar_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so" to ""
+[152.331s] Listing '/home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...
+[152.332s] Compiling '/home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py'...
+[152.332s] Listing '/home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...
+[152.332s] Compiling '/home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py'...
+[152.332s] Compiling '/home/jetson/hurricane/lidar_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py'...
+[152.342s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so
+[152.343s] -- Set runtime path of "/home/jetson/hurricane/lidar_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so" to ""
+[152.343s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake
+[152.343s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake
+[152.344s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake
+[152.344s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake
+[152.345s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake
+[152.345s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake
+[152.346s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[152.346s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake
+[152.347s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake
+[152.347s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake
+[152.348s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake
+[152.349s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake
+[152.349s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+[152.350s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake
+[152.350s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake
+[152.351s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake
+[152.351s] -- Installing: /home/jetson/hurricane/lidar_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake
+[152.361s] Invoked command in '/home/jetson/hurricane/lidar_ws/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2:/home/jetson/yahboom_ws/install/interfaces:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:/usr/local/lib:/usr/local/cuda-12.6/lib64:/home/jetson/yahboom_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/hurricane/lidar_ws/build/fast_lio

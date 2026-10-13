@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing ros2_to_stm32.egg-info/PKG-INFO
+writing dependency_links to ros2_to_stm32.egg-info/dependency_links.txt
+writing entry points to ros2_to_stm32.egg-info/entry_points.txt
+writing requirements to ros2_to_stm32.egg-info/requires.txt
+writing top-level names to ros2_to_stm32.egg-info/top_level.txt
+reading manifest file 'ros2_to_stm32.egg-info/SOURCES.txt'
+writing manifest file 'ros2_to_stm32.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/python3.10/site-packages/ros2-to-stm32.egg-link (link to .)
+Installing info_trans script to /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/ros2_to_stm32
+Installing map_node script to /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/ros2_to_stm32
+Installing pos_trans script to /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/ros2_to_stm32
+Installing serial_node script to /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/ros2_to_stm32
+Installing ui_node script to /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/ros2_to_stm32
+
+Installed /home/jetson/hurricane/lidar_ws/build/ros2_to_stm32
+running symlink_data

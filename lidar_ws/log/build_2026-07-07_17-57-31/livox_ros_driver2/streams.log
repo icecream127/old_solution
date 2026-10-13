@@ -1,0 +1,324 @@
+[0.027s] Invoking command in '/home/jetson/hurricane/lidar_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/jetson/hurricane/lidar_ws/src/livox_ros_driver2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2
+[0.132s] -- The C compiler identification is GNU 11.4.0
+[0.235s] -- The CXX compiler identification is GNU 11.4.0
+[0.249s] -- Detecting C compiler ABI info
+[0.373s] -- Detecting C compiler ABI info - done
+[0.383s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.384s] -- Detecting C compile features
+[0.385s] -- Detecting C compile features - done
+[0.390s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.527s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.527s] -- Detecting CXX compile features
+[0.528s] -- Detecting CXX compile features - done
+[0.529s] -- livox_ros_driver2 version: 1.2.4
+[0.532s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.860s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.997s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.247s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.453s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.454s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.601s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.647s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.716s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.731s] -- Looking for pthread.h
+[1.858s] -- Looking for pthread.h - found
+[1.859s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.995s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.997s] -- Found Threads: TRUE  
+[2.226s] -- Checking for module 'eigen3'
+[2.248s] --   Found eigen3, version 3.4.0
+[2.298s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.299s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.360s] -- Checking for module 'flann'
+[2.382s] --   Found flann, version 1.9.1
+[2.457s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[2.457s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[4.251s] -- Checking for module 'libusb-1.0'
+[4.284s] --   Found libusb-1.0, version 1.0.25
+[4.366s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[4.367s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.475s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.719s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.730s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.744s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.964s] -- Found Qhull version 8.0.2
+[5.186s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.397s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[5.398s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[5.400s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[5.401s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[5.402s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[5.403s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[5.404s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.404s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.406s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[5.407s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[5.409s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[5.410s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[5.411s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[5.412s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[5.414s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[5.415s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[5.417s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[5.418s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[5.419s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[5.421s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[5.422s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.422s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.423s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.424s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[5.426s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[5.495s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[5.948s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.430s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.095s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.152s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.155s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.220s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[7.221s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.221s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.221s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[7.272s] -- Found PythonExtra: .so  
+[7.596s] -- Using numpy include directory: /home/jetson/.local/lib/python3.10/site-packages/numpy/core/include
+[7.665s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.712s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.765s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.767s] -- Configured cppcheck include dirs: /home/jetson/hurricane/lidar_ws/src/livox_ros_driver2/Livox-SDK2/include;/home/jetson/hurricane/lidar_ws/src/livox_ros_driver2/3rdparty;/home/jetson/hurricane/lidar_ws/src/livox_ros_driver2/src
+[7.767s] -- Configured cppcheck exclude dirs and/or files: 
+[7.816s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.816s] -- Configured cpplint exclude dirs and/or files: 
+[7.823s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.836s] -- Added test 'lint_cmake' to check CMake code style
+[7.845s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.900s] -- Added test 'uncrustify' to check C / C++ code style
+[7.901s] -- Configured uncrustify additional arguments: 
+[7.908s] -- Added test 'xmllint' to check XML markup files
+[7.914s] -- Configuring done
+[8.035s] -- Generating done
+[8.074s] -- Build files have been written to: /home/jetson/hurricane/lidar_ws/build/livox_ros_driver2
+[8.135s] Invoked command in '/home/jetson/hurricane/lidar_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/jetson/hurricane/lidar_ws/src/livox_ros_driver2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2
+[8.143s] Invoking command in '/home/jetson/hurricane/lidar_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/jetson/hurricane/lidar_ws/build/livox_ros_driver2 -- -j8 -l8
+[8.224s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.247s] [  5%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2_node.dir/rclcpp_components/node_main_livox_ros_driver2_node.cpp.o[0m
+[8.247s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.264s] [  5%] Built target ament_cmake_python_symlink_livox_ros_driver2
+[8.789s] running egg_info
+[8.791s] creating livox_ros_driver2.egg-info
+[8.791s] writing livox_ros_driver2.egg-info/PKG-INFO
+[8.792s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[8.792s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[8.792s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[8.797s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[8.798s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[8.877s] [  5%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[9.033s] [  8%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o[0m
+[9.033s] [  8%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o[0m
+[9.044s] [  8%] Built target livox_interfaces2__cpp
+[9.063s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.063s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.078s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.143s] [ 15%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so[0m
+[9.213s] [ 15%] Built target livox_interfaces2__rosidl_generator_c
+[9.232s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.232s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.233s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.779s] [ 22%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[9.796s] [ 24%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[9.907s] [ 26%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[10.084s] [ 28%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o[0m
+[10.093s] [ 29%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o[0m
+[10.180s] [ 31%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[10.199s] [ 33%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o[0m
+[10.201s] [ 35%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o[0m
+[10.296s] [ 36%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[10.323s] [ 38%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so[0m
+[10.358s] [ 40%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o[0m
+[10.374s] [ 42%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so[0m
+[10.392s] [ 43%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so[0m
+[10.408s] [ 43%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[10.430s] [ 45%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[10.489s] [ 45%] Built target livox_interfaces2__rosidl_typesupport_c
+[10.510s] [ 47%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[10.529s] [ 47%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[10.661s] [ 49%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o[0m
+[10.818s] [ 50%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o[0m
+[10.855s] [ 52%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o[0m
+[11.031s] [ 54%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o[0m
+[11.249s] [ 56%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so[0m
+[11.317s] [ 57%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so[0m
+[11.347s] [ 59%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.471s] [ 59%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[11.508s] [ 61%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o[0m
+[11.544s] [ 61%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[11.596s] [ 63%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o[0m
+[11.687s] [ 63%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[11.765s] [ 64%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o[0m
+[13.080s] [ 66%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o[0m
+[13.178s] [ 68%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o[0m
+[13.188s] [ 70%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o[0m
+[13.862s] [ 71%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o[0m
+[13.880s] [ 73%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o[0m
+[14.083s] [ 75%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o[0m
+[14.754s] [ 77%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o[0m
+[15.688s] [ 78%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o[0m
+[16.203s] [ 78%] Built target livox_interfaces2
+[16.252s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.584s] [ 82%] [32m[1mLinking CXX executable livox_ros_driver2_node[0m
+[16.863s] [ 82%] Built target livox_ros_driver2_node
+[17.532s] [ 82%] Built target livox_interfaces2__py
+[17.573s] [ 85%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o[0m
+[17.573s] [ 85%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o[0m
+[17.767s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so[0m
+[17.842s] [ 87%] Built target livox_interfaces2__rosidl_generator_py
+[17.881s] [ 92%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.881s] [ 92%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.882s] [ 92%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o[0m
+[18.071s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[18.077s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[18.081s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[18.141s] [ 98%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[18.150s] [ 98%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[18.158s] [ 98%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[28.239s] [100%] [32m[1mLinking CXX shared library liblivox_ros_driver2.so[0m
+[29.813s] [100%] Built target livox_ros_driver2
+[29.839s] Invoked command in '/home/jetson/hurricane/lidar_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/jetson/hurricane/lidar_ws/build/livox_ros_driver2 -- -j8 -l8
+[29.864s] Invoking command in '/home/jetson/hurricane/lidar_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/jetson/hurricane/lidar_ws/build/livox_ros_driver2
+[29.879s] -- Install configuration: ""
+[29.879s] -- Execute custom install script
+[29.880s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+[29.902s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h
+[29.922s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h
+[29.940s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h
+[29.957s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h
+[29.975s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+[29.994s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h
+[30.012s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h
+[30.028s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h
+[30.047s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+[30.065s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+[30.082s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+[30.100s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[30.118s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[30.134s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[30.153s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[30.170s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[30.189s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[30.208s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp
+[30.225s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp
+[30.243s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+[30.260s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+[30.277s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+[30.296s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+[30.315s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+[30.334s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+[30.352s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+[30.377s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
+[30.397s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp
+[30.416s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[30.436s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[30.462s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[30.481s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[30.500s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[30.519s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+[30.538s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+[30.556s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.1.0-py3.10.egg-info/PKG-INFO
+[30.575s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.1.0-py3.10.egg-info/SOURCES.txt
+[30.592s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.1.0-py3.10.egg-info/dependency_links.txt
+[30.611s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.1.0-py3.10.egg-info/top_level.txt
+[30.630s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py
+[30.650s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c
+[30.667s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c
+[30.683s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c
+[30.702s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so
+[30.721s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[30.739s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[30.756s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[30.775s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py
+[30.793s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py
+[30.813s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c
+[30.832s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py
+[30.850s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c
+[30.868s] -- Up-to-date symlink: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[30.868s] -- Up-to-date symlink: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[30.868s] -- Up-to-date symlink: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[30.869s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+[30.889s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+[30.908s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+[30.927s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+[30.945s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+[30.964s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2.so
+[30.984s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
+[31.003s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json
+[31.021s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud.rviz
+[31.045s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json
+[31.068s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/msg_HAP_launch.py
+[31.086s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/msg_MID360_launch.py
+[31.107s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_HAP_launch.py
+[31.125s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_MID360_launch.py
+[31.141s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_mixed.py
+[31.158s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+[31.176s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+[31.197s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+[31.218s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+[31.238s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+[31.255s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+[31.274s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+[31.291s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+[31.311s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+[31.329s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+[31.348s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+[31.365s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+[31.384s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+[31.403s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+[31.425s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.444s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.462s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+[31.479s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+[31.497s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[31.515s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[31.532s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+[31.558s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+[31.577s] -- Symlinking: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.xml
+[31.595s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+[31.597s] -- Set runtime path of "/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""
+[31.597s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[31.598s] -- Set runtime path of "/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""
+[31.599s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[31.600s] -- Set runtime path of "/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""
+[31.600s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+[31.601s] -- Set runtime path of "/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""
+[31.602s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[31.603s] -- Set runtime path of "/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[31.603s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[31.604s] -- Set runtime path of "/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""
+[31.604s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[31.605s] -- Set runtime path of "/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""
+[31.684s] Listing '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...
+[31.684s] Compiling '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...
+[31.684s] Listing '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...
+[31.684s] Compiling '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py'...
+[31.684s] Compiling '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py'...
+[31.684s] Compiling '/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py'...
+[31.695s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so
+[31.695s] -- Set runtime path of "/home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so" to ""
+[31.695s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake
+[31.695s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-noconfig.cmake
+[31.696s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake
+[31.696s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[31.697s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake
+[31.698s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[31.698s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake
+[31.699s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake
+[31.699s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake
+[31.700s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake
+[31.701s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[31.701s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake
+[31.701s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[31.702s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake
+[31.702s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake
+[31.703s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake
+[31.703s] -- Installing: /home/jetson/hurricane/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-noconfig.cmake
+[31.710s] Invoked command in '/home/jetson/hurricane/lidar_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/jetson/hurricane/lidar_ws/build/livox_ros_driver2

@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.000550] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000957] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001207] (ros2_to_stm32) JobQueued: {'identifier': 'ros2_to_stm32', 'dependencies': OrderedDict()}
+[0.001478] (ros2_to_stm32) JobStarted: {'identifier': 'ros2_to_stm32'}
+[0.099497] (-) TimerEvent: {}
+[0.200075] (-) TimerEvent: {}
+[0.300745] (-) TimerEvent: {}
+[0.401315] (-) TimerEvent: {}
+[0.501889] (-) TimerEvent: {}
+[0.602495] (-) TimerEvent: {}
+[0.703155] (-) TimerEvent: {}
+[0.803918] (-) TimerEvent: {}
+[0.904682] (-) TimerEvent: {}
+[1.005445] (-) TimerEvent: {}
+[1.106208] (-) TimerEvent: {}
+[1.207004] (-) TimerEvent: {}
+[1.307765] (-) TimerEvent: {}
+[1.408547] (-) TimerEvent: {}
+[1.416848] (ros2_to_stm32) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jetson/hurricane/lidar_ws/build/ros2_to_stm32/build', '--no-deps', 'symlink_data'], 'cwd': '/home/jetson/hurricane/lidar_ws/build/ros2_to_stm32', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://127.0.0.1:7897/', 'no_proxy': 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1', 'LANGUAGE': 'en_US:en', 'USER': 'jetson', 'LC_TIME': 'en_US.UTF-8', 'all_proxy': 'socks://127.0.0.1:7897/', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/usr/local/lib:/usr/local/cuda-12.6/lib64:/home/jetson/yahboom_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:', 'HOME': '/home/jetson', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/jetson/hurricane/run', 'TERM_PROGRAM_VERSION': '1.86.2', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1', 'JETSON_L4T': '36.4.3', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit Super', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '2170', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'https_proxy': 'http://127.0.0.1:7897/', 'COLCON_PREFIX_PATH': '/home/jetson/yahboom_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jetson', 'ALL_PROXY': 'socks://127.0.0.1:7897/', 'JETSON_MODULE': 'NVIDIA Jetson Orin NX (16GB ram)', 'JETSON_SERIAL_NUMBER': '1794625022945', 'http_proxy': 'http://127.0.0.1:7897/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jetson', 'OLLAMA_GPU_LAYERS': 'cuda', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': '/home/jetson/workspaces/isaac_ros-dev/', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/jetson/.npm-global/bin:/usr/local/cuda-12.6/bin:/home/jetson/.npm-global/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/jetson/.local/bin:/home/jetson/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yahboom:@/tmp/.ICE-unix/2133,unix/yahboom:/tmp/.ICE-unix/2133', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/90cac523_3a58_44f0_91f6_8bbe4c2e795a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b26386dba1.sock', 'GNOME_TERMINAL_SERVICE': ':1.93', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '99', 'AMENT_PREFIX_PATH': '/home/jetson/yahboom_ws/install/text_chat:/home/jetson/yahboom_ws/install/largemodel:/home/jetson/yahboom_ws/install/interfaces:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/jetson/hurricane/lidar_ws/build/ros2_to_stm32', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/jetson/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/hurricane/lidar_ws/build/ros2_to_stm32/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/python3.10/site-packages:/usr/local/lib/python3.10/site-packages/:/home/jetson/yahboom_ws/install/text_chat/lib/python3.10/site-packages:/home/jetson/yahboom_ws/install/largemodel/lib/python3.10/site-packages:/home/jetson/yahboom_ws/install/interfaces/local/lib/python3.10/dist-packages:/home/jetson/yahboom_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/lib/python3.10/site-packages/:', 'HTTP_PROXY': 'http://127.0.0.1:7897/', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.2', 'CMAKE_PREFIX_PATH': '/home/jetson/yahboom_ws/install/interfaces', 'JETSON_P_NUMBER': 'p3767-0000'}, 'shell': False}
+[1.508711] (-) TimerEvent: {}
+[1.609497] (-) TimerEvent: {}
+[1.710234] (-) TimerEvent: {}
+[1.810888] (-) TimerEvent: {}
+[1.911651] (-) TimerEvent: {}
+[1.961468] (ros2_to_stm32) StdoutLine: {'line': b'running develop\n'}
+[2.011774] (-) TimerEvent: {}
+[2.112442] (-) TimerEvent: {}
+[2.213222] (-) TimerEvent: {}
+[2.313999] (-) TimerEvent: {}
+[2.374181] (ros2_to_stm32) StdoutLine: {'line': b'running egg_info\n'}
+[2.374964] (ros2_to_stm32) StdoutLine: {'line': b'writing ros2_to_stm32.egg-info/PKG-INFO\n'}
+[2.375448] (ros2_to_stm32) StdoutLine: {'line': b'writing dependency_links to ros2_to_stm32.egg-info/dependency_links.txt\n'}
+[2.375821] (ros2_to_stm32) StdoutLine: {'line': b'writing entry points to ros2_to_stm32.egg-info/entry_points.txt\n'}
+[2.376152] (ros2_to_stm32) StdoutLine: {'line': b'writing requirements to ros2_to_stm32.egg-info/requires.txt\n'}
+[2.376441] (ros2_to_stm32) StdoutLine: {'line': b'writing top-level names to ros2_to_stm32.egg-info/top_level.txt\n'}
+[2.380344] (ros2_to_stm32) StdoutLine: {'line': b"reading manifest file 'ros2_to_stm32.egg-info/SOURCES.txt'\n"}
+[2.381872] (ros2_to_stm32) StdoutLine: {'line': b"writing manifest file 'ros2_to_stm32.egg-info/SOURCES.txt'\n"}
+[2.384713] (ros2_to_stm32) StdoutLine: {'line': b'running build_ext\n'}
+[2.385057] (ros2_to_stm32) StdoutLine: {'line': b'Creating /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/python3.10/site-packages/ros2-to-stm32.egg-link (link to .)\n'}
+[2.386671] (ros2_to_stm32) StdoutLine: {'line': b'Installing info_trans script to /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/ros2_to_stm32\n'}
+[2.387031] (ros2_to_stm32) StdoutLine: {'line': b'Installing map_node script to /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/ros2_to_stm32\n'}
+[2.387327] (ros2_to_stm32) StdoutLine: {'line': b'Installing pos_trans script to /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/ros2_to_stm32\n'}
+[2.387602] (ros2_to_stm32) StdoutLine: {'line': b'Installing serial_node script to /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/ros2_to_stm32\n'}
+[2.387882] (ros2_to_stm32) StdoutLine: {'line': b'Installing ui_node script to /home/jetson/hurricane/lidar_ws/install/ros2_to_stm32/lib/ros2_to_stm32\n'}
+[2.388187] (ros2_to_stm32) StdoutLine: {'line': b'\n'}
+[2.388428] (ros2_to_stm32) StdoutLine: {'line': b'Installed /home/jetson/hurricane/lidar_ws/build/ros2_to_stm32\n'}
+[2.388670] (ros2_to_stm32) StdoutLine: {'line': b'running symlink_data\n'}
+[2.414075] (-) TimerEvent: {}
+[2.476152] (ros2_to_stm32) CommandEnded: {'returncode': 0}
+[2.514821] (-) TimerEvent: {}
+[2.523888] (ros2_to_stm32) JobEnded: {'identifier': 'ros2_to_stm32', 'rc': 0}
+[2.526752] (-) EventReactorShutdown: {}

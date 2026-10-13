@@ -1,0 +1,7 @@
+[console_scripts]
+info_trans = ros2_to_stm32.info_transmiting:main
+map_node = ros2_to_stm32.map:main
+pos_trans = ros2_to_stm32.trans:main
+serial_node = ros2_to_stm32.serial:main
+ui_node = ros2_to_stm32.ui:main
+
